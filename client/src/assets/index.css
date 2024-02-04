@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+  @apply text-sm font-medium dark:text-white;
+}
+
+.task-card {
+  @apply bg-slate-300 dark:bg-slate-800 rounded-md px-2 py-3;
+}
+
+.task-card-title {
+  @apply font-bold text-lg dark:text-white;
+}
+
+.task-card-description {
+  @apply text-sm font-medium dark:text-gray-200;
+}
+
+.task-card-date {
+  @apply text-xs font-light dark:text-gray-200;
+}
+
+.btn {
+  @apply font-medium text-xs px-4 py-2 rounded-md opacity-70 dark:bg-slate-600 dark:text-gray-200;
+}
+
+.form-title {
+  @apply text-2xl font-bold dark:text-white;
+}
+
+.form-label {
+  @apply text-sm font-medium dark:text-white;
+}
+
+.form-input {
+  @apply font-medium text-sm p-2 rounded-md outline-none dark:bg-slate-600 dark:text-white;
+}
+
+.form-error {
+  @apply text-xs font-medium text-red-500;
+}
